@@ -1,1 +1,32 @@
-/*# sourceMappingURL=styles.css.map */
+:root {
+    --clr-light: #e2e8f0;
+    --clr-dark: #18181b;
+
+    --clr-slate: #334155;
+    --clr-slatedark: #0f172a;
+
+    --clr-main: #be123c;
+    --clr-main-dark: #4c0519;
+}
+
+body {
+    background-color: var(--clr-slate);
+    color: var(--clr-light);
+}
+
+#navbar {
+    background-color: var(--clr-slatedark);
+    position: sticky;
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 1800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#nav_list {
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-content: center;
+}
