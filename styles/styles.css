@@ -51,6 +51,13 @@ body {
     }
 }
 
+.divider {
+    width: 80vw;
+    height: 5px;
+    background-color: var(--clr-white);
+    opacity: 0.3;
+}
+
 /* --------------------------------------------------------------------- */
 /* -------------------------------- NAV -------------------------------- */
 /* --------------------------------------------------------------------- */
@@ -108,7 +115,8 @@ body {
 #hero {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-top: 5%
+    margin-top: 5%;
+    min-height: 80vh;
 }
 
 @media (max-width: 1056px) {
@@ -126,7 +134,8 @@ body {
 
 #hero-text-container h1 {
     font-family: var(--fnt-kanit);
-    font-size: 5rem;
+    font-size: 8rem;
+    line-height: 1;
     color: transparent;
     background-color: var(--clr-accent);
     background-clip: text;
@@ -134,6 +143,7 @@ body {
 
 #hero-text-container span {
     font-size: 2rem;
+    margin-top: 50px;
 }
 
 #hero-text-container span span {
@@ -151,7 +161,7 @@ body {
     background-color: var(--clr-sec);
     border: 5px solid var(--clr-dark);
     border-radius: 10px;
-    transition: background-color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    transition: background-color 0.2s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 #hero-text-container button:hover {
@@ -165,18 +175,19 @@ body {
 
 #hero-img-container {
     margin: 0 auto;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border: 15px solid var(--clr-accent);
     border-radius: 100%;
     overflow: hidden;
+    align-self: center;
     transition: transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), border-radius 0.3s cubic-bezier(0.25, 0.1, 0.25, 1) !important;
 }
 
 #hero-img-container img {
     width: 100%;
     height: auto;
-    transform: scale(4) translateY(45px) translateX(-5px);
+    transform: scale(4) translateY(60px) translateX(-5px);
 }
 
 #hero-img-container:hover {
@@ -196,7 +207,7 @@ body {
 } */
 
 #about {
-    margin-top: 10%;
+    margin-top: 20%;
 }
 
 #about-text-container h2 {
@@ -206,4 +217,10 @@ body {
 
 #about-text-container p {
     font-size: 1.4rem;
+    margin-top: 20px;
+}
+
+#about-text-container p span {
+    color: var(--clr-accent);
+    font-style: italic;
 }
