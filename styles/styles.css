@@ -100,14 +100,19 @@ body {
 }
 
 .nav-icon {
-    transform: scale(0.7);
+    transform: scale(0.7) translateY(-2px);
     align-self: center;
     transition: transform 0.2s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 .nav-link:hover .nav-icon {
-    transform: scale(0.9);
+    transform: scale(0.9)  translateX(5px);
 }
+
+#nav-icon {
+    font-size: 0;
+}
+
 
 /* --------------------------------------------------------------------- */
 /* ------------------------------- HERO -------------------------------- */
@@ -188,7 +193,7 @@ body {
 #hero-img-container img {
     width: 100%;
     height: auto;
-    transform: scale(4) translateY(60px) translateX(-5px);
+    transform: scale(4) translateY(55px) translateX(-5px);
 }
 
 #hero-img-container:hover {
