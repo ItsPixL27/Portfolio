@@ -19,6 +19,7 @@
 :root {
     --clr-main: #14213d;
     --clr-sec: #003566;
+    --clr-thi: #4087ca;
     --clr-dark: #000000;
     --clr-white: #f1f5f9;
     --clr-accent: #ffc300;
@@ -153,12 +154,12 @@ body {
 }
 
 #hero-text-container button {
-    color: var(--clr-white);
+    color: var(--clr-dark);
     font-size: 1.2rem;
     width: clamp(100px, 30%, 500px);
     padding: 10px 20px;
     margin-top: 25px;
-    background-color: var(--clr-sec);
+    background-color: var(--clr-thi);
     border: 5px solid var(--clr-dark);
     border-radius: 10px;
     transition: background-color 0.2s cubic-bezier(0.25, 0.1, 0.25, 1), color 0.3s cubic-bezier(0.25, 0.1, 0.25, 1);
