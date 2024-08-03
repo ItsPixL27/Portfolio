@@ -16,6 +16,29 @@
 /* ------------------------------- MAIN -------------------------------- */
 /* --------------------------------------------------------------------- */
 
+/* DELETE LATER */
+@media (max-width: 1200px) {
+    #no-mobile {
+        display: block !important;
+        position: fixed;
+        font-size: 5rem;
+        height: 100vh;
+        width: 100vw;
+        background-color: #003566;
+        color: var(--clr-accent);
+        z-index: 9999;
+    }
+
+    body {
+        overflow: hidden;
+    }
+}
+
+#no-mobile {
+    display: none;
+}
+/*  */
+
 :root {
     --clr-main: #14213d;
     --clr-sec: #003566;
