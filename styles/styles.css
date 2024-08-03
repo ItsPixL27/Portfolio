@@ -183,3 +183,27 @@ body {
     border-radius: 10%;
     transform: scale(1.05);
 }
+
+
+/* --------------------------------------------------------------------- */
+/* ----------------------------- ABOUT ME ------------------------------ */
+/* --------------------------------------------------------------------- */
+
+/* #about {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 5%
+} */
+
+#about {
+    margin-top: 10%;
+}
+
+#about-text-container h2 {
+    font-family: var(--fnt-kanit);
+    font-size: 4rem;
+}
+
+#about-text-container p {
+    font-size: 1.4rem;
+}
